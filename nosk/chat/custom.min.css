@@ -1,0 +1,224 @@
+.page-header.navbar .page-logo .logo-default {
+    margin: 0;
+}
+.logo-color{
+    display: none;
+}
+.solar-logo:hover > .logo-color{
+    display: block;
+}
+.solar-logo:hover > .logo-default{
+    display: none;
+}
+
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px !important;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+.page-content{
+    padding: 0 !important;
+}
+/*table-properties*/
+.navbar{
+    margin-bottom: 0 !important;;
+}
+.tp_header{
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: calc(100% - 460px);
+    padding-left: 10px;
+}
+.tp_header .navbar-nav{
+    float: none;
+}
+#solar-tp {
+    min-height: calc(100vh - 52px) !important;
+
+}
+
+.solar-pagination .form-control-sm {
+
+    max-height: 24px;
+}
+.tp_header .nav-link{
+    color: #fff;
+    padding: 14px;
+}
+
+.tp_header .nav-link:hover, .tp_header .nav-link:focus, .tp_header .nav-link:active{
+    color: #2e3e4e;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #fff;
+    border: none;
+    color: #2e3e4e;
+}
+.tp_header .dropdown-menu{
+    padding: 10px;
+}
+
+.tp_header a{
+    color: #2e3e4e;
+}
+.tp_header .nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #fff;
+}
+.tp_header .form-control{
+    border-color: #fff !important;
+}
+#pageTitle{
+    color: #fff;
+    font-size: 15px;
+    line-height: 28px;
+
+}
+.form-wrap{
+    padding: 12px;
+    background: #eee ;
+}
+
+.solar-form{
+    margin: 0!important;
+
+}
+
+.solar-form .nav-tabs>li.active>a {
+    border-color: #fff;
+}
+
+.solar-form .nav-tabs>li>a:hover {
+    border-color: #fff;
+}
+.solar-form .checkbox input[type=checkbox], .solar-fom checkbox-inline input[type=checkbox], .solar-fom .radio input[type=radio], .solar-fom .radio-inline input[type=radio] {
+    position: relative !important;
+    margin-left: 0 !important;
+    margin-right: 10px;
+}
+@media (max-width: 991px){
+    .page-header.navbar .page-logo {
+        display: none!important;
+    }
+    .tp_header{
+        width: calc(100% - 180px);
+    }
+
+}
+
+
+@media (max-width: 768px){
+    .navbar-nav{
+        margin: 0;
+    }
+
+}
+.page-header.navbar {
+    background-color: #2e3e4e !important;
+}
+.danger {
+    color: hsla(0,0%,100%,.87);
+    background-color: #f44455;
+}
+.has-error .Select-control{
+    border-color: red;
+}
+.selected{
+    z-index: 1000;
+}
+.page-sidebar .page-sidebar-menu .sub-menu>li>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li>a {
+    color: #2e3e4e;
+}
+.page-sidebar .page-sidebar-menu>li>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a {
+    border-top: 1px solid #F0F5F7;
+    color: #2e3e4e;
+}
+.page-sidebar .page-sidebar-menu>li.heading>h3, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.heading>h3 {
+    color: #2e3e4e;
+}
+.page-sidebar .page-sidebar-menu .sub-menu>li>a>i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li>a>i {
+    color: #2e3e4e;
+}
+.page-sidebar .page-sidebar-menu>li>a>i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a>i {
+    color: #2e3e4e;
+}
+.page-sidebar .page-sidebar-menu>li>a>i[class*=icon-], .page-sidebar .page-sidebar-menu>li>a>i[class^=icon-], .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a>i[class*=icon-], .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a>i[class^=icon-] {
+    color: #2e3e4e;
+}
+.page-sidebar .page-sidebar-menu .sub-menu>li.active>a, .page-sidebar .page-sidebar-menu .sub-menu>li.open>a, .page-sidebar .page-sidebar-menu .sub-menu>li:hover>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li.active>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li:hover>a {
+    background: #2e3e4e!important;
+    color: #fff;
+}
+.page-sidebar .page-sidebar-menu .sub-menu>li.active>a>i, .page-sidebar .page-sidebar-menu .sub-menu>li.open>a>i, .page-sidebar .page-sidebar-menu .sub-menu>li:hover>a>i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li.active>a>i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li.open>a>i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li:hover>a>i {
+    color: #fff;
+}
+.page-sidebar .page-sidebar-menu>li.open>a, .page-sidebar .page-sidebar-menu>li:hover>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li:hover>a {
+    background: #2e3e4e;
+    color: #fff;
+}
+.page-sidebar .page-sidebar-menu>li.open>a>.arrow.open:before, .page-sidebar .page-sidebar-menu>li.open>a>.arrow:before, .page-sidebar .page-sidebar-menu>li.open>a>i, .page-sidebar .page-sidebar-menu>li:hover>a>.arrow.open:before, .page-sidebar .page-sidebar-menu>li:hover>a>.arrow:before, .page-sidebar .page-sidebar-menu>li:hover>a>i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.open>a>.arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.open>a>.arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.open>a>i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li:hover>a>.arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li:hover>a>.arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li:hover>a>i {
+    color: #fff;
+}
+
+/*menu*/
+.solar-menu{
+    background: #ccc;
+}
+
+.page-sidebar-menu>li.active.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a {
+    background: #0275d8!important;
+    border-top-color: transparent;
+    color: #fff;
+}
+.page-sidebar .page-sidebar-menu>li.active.open>a>.selected, .page-sidebar .page-sidebar-menu>li.active>a>.selected, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a>.selected, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a>.selected {
+    top: 0;
+    right: -8px;
+    border-top: 20px double transparent;
+    border-bottom: 20px double transparent;
+    border-right: 0;
+    border-left: 8px solid #0275d8;
+}
+.page-sidebar .page-sidebar-menu>li.active.open>a, .page-sidebar .page-sidebar-menu>li.active>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a, .page-sidebar .page-sidebar-menu>li.active.open>a, .page-sidebar .page-sidebar-menu>li.active>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a:hover,  {
+    background: #0275d8!important;
+    border-top-color: transparent;
+    color: #fff;
+}
+.page-sidebar .page-sidebar-menu>li.active.open>a:hover, .page-sidebar .page-sidebar-menu>li.active>a:hover, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a:hover, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a:hover {
+    background: #0275d8!important;
+}
+.page-sidebar .page-sidebar-menu>li.active.open>a, .page-sidebar .page-sidebar-menu>li.active>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a {
+    background: #0275d8!important;
+    border-top-color: transparent;
+    color: #fff;
+}
+
+#save_info{
+    margin-top: 15px;
+}
+.parentSelect>div {
+
+    width: 250px !important;
+
+}
